@@ -1,4 +1,4 @@
-<img src="https://i2.wp.com/farcaster.co/wp-content/uploads/2018/09/Gutenberg-logo.png" width="100" alt="Gutenberg" />
+<img src="https://i2.wp.com/farcaster.co/wp-content/uploads/2018/09/Gutenberg-logo.png" width="200" alt="Gutenberg" />
 
 # Welcome to WordCamp Cape Town!
 ## 🔧 Gutenberg Workshop: A definitive guide to your first Gutenberg block.
