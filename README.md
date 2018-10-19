@@ -1,7 +1,6 @@
 <img src="https://i2.wp.com/farcaster.co/wp-content/uploads/2018/09/Gutenberg-logo.png" width="200" alt="Gutenberg" />
 
 # Welcome to WordCamp Cape Town!
-## 🔧 Gutenberg Workshop: A definitive guide to your first Gutenberg block.
 
 Hej! 👋🏻
 Glad to have you in the workshop! Today we're going to build 2, maybe 3 Gutenberg blocks (depending on how we go)
