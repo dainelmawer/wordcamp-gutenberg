@@ -32,9 +32,9 @@ wp scaffold block gutenblock --title="Gutenblock" --dashicon="wordpress" --categ
 ## 🔖 Tutorials
 Lets ditch powerpoint presentations for this workshop. Everything you need to work with is in this repo, and will be available locally once you download / clone down!
 
-1) [Building a static block](../docs/static-block)
-2) [Building a dynamic block](../docs/dynamic-block)
-3) [Building a data block](../docs/data-block)
+1) [Building a static block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-data-block)
+2) [Building a dynamic block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-dynamic-block)
+3) [Building a data block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-static-block)
 
 ## 💡 Questions / Contact
 If you have any questions or concerns during the course of the workshop, then open up a Github issue above. This allows me to track all your questions, and gives others a chance to contribute answers. 
