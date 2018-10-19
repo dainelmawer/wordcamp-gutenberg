@@ -35,7 +35,7 @@ Lets ditch powerpoint presentations for this workshop. Everything you need to wo
 2) [Building a dynamic block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-dynamic-block)
 3) [Building a data block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-static-block)
 
-## Resources
+## ⌨️ Resources
 
 - [React](https://reactjs.org)
 - [Gutenberg Block API](https://wordpress.org/gutenberg/handbook/)
