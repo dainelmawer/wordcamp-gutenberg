@@ -28,12 +28,18 @@ wp scaffold block gutenblock --title="Gutenblock" --dashicon="wordpress" --categ
 3) After following these steps you should have a plugin with a new custom gutenberg block. With this setup, you can add as many blocks as you like. Go ahead and add a 2 more blocks, call the first `gutencamp` and the second `gutenapi`, make sure that you are always binding the blocks to the same plugin. 
 4) Theres no fancy transpiling here. The output of the JS files will be vanilla javascript. If you want you could add Babel, Webpack and Gulp.
 
-## 🔖 Tutorials
+## 🔖 Walkthroughs
 Lets ditch powerpoint presentations for this workshop. Everything you need to work with is in this repo, and will be available locally once you download / clone down!
 
 1) [Building a static block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-data-block)
 2) [Building a dynamic block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-dynamic-block)
 3) [Building a data block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-static-block)
+
+## Resources
+
+- [React](https://reactjs.org)
+- [Gutenberg Block API](https://wordpress.org/gutenberg/handbook/)
+- [WP CLI](https://developer.wordpress.org/cli/commands/)
 
 ## 💡 Questions / Contact
 If you have any questions or concerns during the course of the workshop, then open up a Github issue above. This allows me to track all your questions, and gives others a chance to contribute answers. 
