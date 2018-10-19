@@ -37,8 +37,8 @@ Lets ditch powerpoint presentations for this workshop. Everything you need to wo
 ## Questions / Contact
 If you have any questions or concerns during the course of the workshop, then open up a Github issue above. This allows me to track all your questions, and gives others a chance to contribute answers. 
 
-Twitter: @dainemawer
-Website: http://dainelindleymawer.me
-10up: https://10up.com
+- Twitter: [@dainemawer](https://twitter.com/dainemawer)
+- Website: [https://dainelindleymawer.me](https://dainelindleymawer.me)
+- 10up: [https://10up.com](https://10up.com)
 
 
