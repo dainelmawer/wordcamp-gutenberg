@@ -18,7 +18,7 @@ If you're an engineering wizard you can scaffold whats in this repository by you
 
 1) Change directories to `wp-content/plugins`
 ```
-wp scaffold plugin gutenworkshop -activate
+wp scaffold plugin gutenworkshop --activate
 ```
 2) Once your plugin is activated, you'll need to scaffold out a Gutenberg block and assign it to that plugin.
 ```
