@@ -5,7 +5,9 @@
  */
 
 .wp-block-gutenworkshop-gutenblock {
-	background-color: #000;
-	color: #fff;
-	padding: 2px;
+	color: #000;
+	background: transparent;
+	border: 1px solid #ccc;
+	padding: 16px;
+	line-height: 1;
 }

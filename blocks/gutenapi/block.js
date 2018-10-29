@@ -58,7 +58,7 @@
 			return el(
 				'p',
 				{ className: props.className },
-				__( 'Hello from the editor!' )
+				__( 'Hello!, Im an API driven block' )
 			);
 		},
 
@@ -73,7 +73,7 @@
 			return el(
 				'p',
 				{},
-				__( 'Hello from the saved content!' )
+				__( 'Hello!, Im an API driven block' )
 			);
 		}
 	} );

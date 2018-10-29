@@ -13,3 +13,6 @@
  */
 
 // Your code starts here.
+include 'blocks/gutenblock.php';
+include 'blocks/gutencamp.php';
+include 'blocks/gutenapi.php';
