@@ -12,12 +12,12 @@
  *
  * @see https://wordpress.org/gutenberg/handbook/blocks/writing-your-first-block-type/#enqueuing-block-scripts
  */
-function gutencamp_block_init() {
+function gutennotification_block_init() {
 	$dir = dirname( __FILE__ );
 
-	$block_js = 'gutencamp/block.js';
+	$block_js = 'gutennotification/block.js';
 	wp_register_script(
-		'gutencamp-block-editor',
+		'gutennotification-block-editor',
 		plugins_url( $block_js, __FILE__ ),
 		array(
 			'wp-blocks',
@@ -27,9 +27,9 @@ function gutencamp_block_init() {
 		filemtime( "$dir/$block_js" )
 	);
 
-	$editor_css = 'gutencamp/editor.css';
+	$editor_css = 'gutennotification/editor.css';
 	wp_register_style(
-		'gutencamp-block-editor',
+		'gutennotification-block-editor',
 		plugins_url( $editor_css, __FILE__ ),
 		array(
 			'wp-blocks',
@@ -37,9 +37,9 @@ function gutencamp_block_init() {
 		filemtime( "$dir/$editor_css" )
 	);
 
-	$style_css = 'gutencamp/style.css';
+	$style_css = 'gutennotification/style.css';
 	wp_register_style(
-		'gutencamp-block',
+		'gutennotification-block',
 		plugins_url( $style_css, __FILE__ ),
 		array(
 			'wp-blocks',
@@ -47,10 +47,10 @@ function gutencamp_block_init() {
 		filemtime( "$dir/$style_css" )
 	);
 
-	register_block_type( 'gutenworkshop/gutencamp', array(
-		'editor_script' => 'gutencamp-block-editor',
-		'editor_style'  => 'gutencamp-block-editor',
-		'style'         => 'gutencamp-block',
+	register_block_type( 'gutenworkshop/gutennotification', array(
+		'editor_script' => 'gutennotification-block-editor',
+		'editor_style'  => 'gutennotification-block-editor',
+		'style'         => 'gutennotification-block',
 	) );
 }
-add_action( 'init', 'gutencamp_block_init' );
+add_action( 'init', 'gutennotification_block_init' );

@@ -14,5 +14,11 @@
 
 // Your code starts here.
 include 'blocks/gutenblock.php';
-include 'blocks/gutencamp.php';
+include 'blocks/gutennotification.php';
 include 'blocks/gutenapi.php';
+
+function gutenworkshop_load_textdomain() {
+	load_plugin_textdomain( 'gutenworkshop', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+}
+
+add_action( 'plugins_loaded', 'gutenworkshop_load_textdomain' );

@@ -1,53 +1,118 @@
-<img src="https://i2.wp.com/farcaster.co/wp-content/uploads/2018/09/Gutenberg-logo.png" width="200" alt="Gutenberg" />
+# Gutenworkshop #
+**Contributors:** (this should be a list of wordpress.org userid's)  
+**Donate link:** https://example.com/  
+**Tags:** comments, spam  
+**Requires at least:** 4.4  
+**Tested up to:** 4.9.8  
+**Stable tag:** 0.1.0  
+**License:** GPLv2 or later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
-# Welcome to WordCamp Cape Town!
+Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
 
-Hej! 👋🏻
-Glad to have you in the workshop! Today we're going to build 2, maybe 3 Gutenberg blocks (depending on how we go)
-You can refer to this readme throughout the workshop in case you missed a step. I dont like "formal" workshops, so this will be super casual, no pressure.
+## Description ##
 
-Feel free to ask questions ☝🏻
+This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
 
-## 🗂 Getting Started
-1) You'll want a fresh installation of WordPress, or a not so fresh one, either way, an environment where you can install Gutenberg and the plugin in this respository.
-2) Install Gutenberg! Make sure its activated and that you dont get any errors - foundation strong should be as Yoda would say.
-3) Fork or download the .zip of this repo. Its a plugin, incase you havent figured that out yet.
-4) Make sure the plugin is installed, and active. To make sure its working, you should see the default block appended to the Widgets section in Gutenberg. If you dont see it, ☝🏻.
+For backwards compatibility, if this section is missing, the full length of the short description will be used, and
+Markdown parsed.
 
-## 💎 Extra kudos
-If you're an engineering wizard you can scaffold whats in this repository by yourself - (Make sure you are running at least v1.6 of the WP CLI)
+A few notes about the sections above:
 
-1) Change directories to `wp-content/plugins`
-```
-wp scaffold plugin gutenworkshop --activate
-```
-2) Once your plugin is activated, you'll need to scaffold out a Gutenberg block and assign it to that plugin.
-```
-wp scaffold block gutenblock --title="Gutenblock" --dashicon="wordpress" --category="widget" --plugin="gutenworkshop"
-```
-3) After following these steps you should have a plugin with a new custom gutenberg block. With this setup, you can add as many blocks as you like. Go ahead and add a 2 more blocks, call the first `gutencamp` and the second `gutenapi`, make sure that you are always binding the blocks to the same plugin. 
-4) Theres no fancy transpiling here. The output of the JS files will be vanilla javascript. If you want you could add Babel, Webpack and Gulp.
+*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
+*   "Tags" is a comma separated list of tags that apply to the plugin
+*   "Requires at least" is the lowest version that the plugin will work on
+*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
+higher versions... this is just the highest one you've verified.
+*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
+stable.
 
-## 🔖 Walkthroughs
-Lets ditch powerpoint presentations for this workshop. Everything you need to work with is in this repo, and will be available locally once you download / clone down!
+    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
+if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
+for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
+is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
+your in-development version, without having that information incorrectly disclosed about the current stable version
+that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
 
-1) [Building a static block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-data-block)
-2) [Building a dynamic block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-dynamic-block)
-3) [Building a data block](https://github.com/dainemawer/wordcamp-gutenberg/wiki/Building-a-static-block)
+    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
+you put the stable version, in order to eliminate any doubt.
 
-## ⌨️ Resources
+## Installation ##
 
-- [React](https://reactjs.org)
-- [Gutenberg Block API](https://wordpress.org/gutenberg/handbook/)
-- [WP CLI](https://developer.wordpress.org/cli/commands/)
+This section describes how to install the plugin and get it working.
 
-## 💡 Questions / Contact
-If you have any questions or concerns during the course of the workshop, then open up a Github issue above. This allows me to track all your questions, and gives others a chance to contribute answers. 
+e.g.
 
-- Create an issue / start a conversation: [https://github.com/dainemawer/wordcamp-gutenberg/issues](https://github.com/dainemawer/wordcamp-gutenberg/issues)
+1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
 
-- Twitter: [@dainemawer](https://twitter.com/dainemawer)
-- Website: [https://dainelindleymawer.me](https://dainelindleymawer.me)
-- 10up: [https://10up.com](https://10up.com)
+## Frequently Asked Questions ##
+
+### A question that someone might have ###
+
+An answer to that question.
+
+### What about foo bar? ###
+
+Answer to foo bar dilemma.
+
+## Screenshots ##
+
+### 1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from ###
+![This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from](http://ps.w.org/gutenworkshop/assets/screenshot-1.png)
+
+the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
+directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
+(or jpg, jpeg, gif).
+### 2. This is the second screen shot ###
+![This is the second screen shot](http://ps.w.org/gutenworkshop/assets/screenshot-2.png)
 
 
+## Changelog ##
+
+### 1.0 ###
+* A change since the previous version.
+* Another change.
+
+### 0.5 ###
+* List versions from most recent at top to oldest at bottom.
+
+## Upgrade Notice ##
+
+### 1.0 ###
+Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
+
+### 0.5 ###
+This version fixes a security related bug.  Upgrade immediately.
+
+## Arbitrary section ##
+
+You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
+plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
+"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
+
+## A brief Markdown Example ##
+
+Ordered list:
+
+1. Some feature
+1. Another feature
+1. Something else about the plugin
+
+Unordered list:
+
+* something
+* something else
+* third thing
+
+Here's a link to [WordPress](https://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
+Titles are optional, naturally.
+
+[markdown syntax]: https://daringfireball.net/projects/markdown/syntax
+            "Markdown is what the parser uses to process much of the readme file"
+
+Markdown uses email style notation for blockquotes and I've been told:
+> Asterisks for *emphasis*. Double it up  for **strong**.
+
+`<?php code(); // goes in backticks ?>`

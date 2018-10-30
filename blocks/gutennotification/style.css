@@ -1,0 +1,31 @@
+/**
+ * The following styles get applied both on the front of your site and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-gutenworkshop-gutennotification {
+	background-color: #d8eafc;
+	border: 2px solid #1e87f0;
+	border-radius: 3px;
+	color: #1e87f0;
+	padding: 1em;
+}
+
+.success {
+	background-color: #edfbf6;
+	border: 2px solid #32d296;
+	color: #32d296;
+}
+
+.warning {
+	background-color: #fff6ee;
+	border: 2px solid #faa05a;
+	color: #faa05a;
+}
+
+.danger {
+	background-color: #fef4f6;
+	border: 2px solid #f0506e;
+	color: #f0506e;
+}
